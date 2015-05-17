@@ -1,0 +1,131 @@
+.search-block-v2 {
+    background: url(./../img/123.png) repeat;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0 !important;
+    /*padding: 50px 0 58px;*/
+    min-height:202px;
+}
+.btn.btn-purple {
+    background: none repeat scroll 0 0 #9b6bcc;
+     color: #fff;
+}
+.txt-purple{
+    color:#8E24AA !important;
+}
+.txt-light-purple{
+    color:#8E24AA !important;
+}
+.bg-light-purple{
+    background-color: #8E24AA !important;
+}
+.txt-light-purple:hover{
+    color:#8E24AA !important;
+}
+.left-menu li a{
+    color: #555 !important;
+}
+.score-average{
+    font-size: 3.5rem;
+}
+.inner-results p{
+    color:#333 !important;
+}
+.search-filter__text, .search-filter__text:hover  {
+    display: block;
+    padding-right: 40px;
+    color:#666 !important;
+}
+
+
+.search-filter__count {
+    background: none repeat scroll 0 0 #e5e5e5;
+    border-radius: 11px;
+    color: #666;
+    display: block;
+    font-size: 1.1rem;
+    line-height: 2;
+    padding: 0 8px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+.sky-form-custom fieldset{
+    padding:0 !important;
+}
+.sky-form-custom a:hover{
+    color:#666 !important;
+}
+.review_box li{
+    line-height: 35px;
+}
+.review_box li i{
+    font-size:20px;
+}
+.invoice-history dt{
+    text-align: left;
+    font-weight: normal;
+    overflow: visible;
+}
+.invoice-history dd{
+    text-align: right;
+    font-weight: bold;
+}
+.invoice-history .last{
+    padding-top:20px;
+    font-size:20px;
+}
+.review-graph-item-text{
+    font-size: 1.5rem;
+}
+.overview .glyphicons::before{
+    color: #fff;
+    display: block;
+    font: 20px/1em "Glyphicons Regular";
+    left: 0;
+    margin: 0 5px 0 0;
+    position: relative;
+    text-transform: none;
+    top: 0;
+    vertical-align: middle;
+}
+.p-chart ul{
+    margin-top:20px;
+}
+.review-graph-item-text2{
+    font-size: 2.3rem;
+}
+.mini-box a i,span{
+    display:inline;
+    
+}
+.mini-box .glyphicons:before{
+    color:#777;
+    font-size:18px;
+}
+.mini-box .glyphicons{
+     padding-left: 24px;
+}
+.feedback-list-overall {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 1.375;
+    text-align: center;
+}
+.feedback-list-hd hr{
+     margin: 10px 0 !important;
+}
+.feedback-list-hd h2{
+    font-size:30px;
+}
+.counter-icon .glyphicons{
+     padding: 5px !important;
+     
+}
+.counter-icon .glyphicons:before{
+    color:#fff !important;
+     margin: 0;
+     position: relative;
+     vertical-align: initial;
+     font:18px/1em "Glyphicons Regular";
+}
