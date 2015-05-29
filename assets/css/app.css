@@ -971,7 +971,7 @@ a.btn-u-xs {
 .btn-u:active, 
 .btn-u.active, 
 .open .dropdown-toggle.btn-u {
-   background: #5fb611;
+   background: #9b6bcc;
 }
 .btn-u-split.dropdown-toggle {
    border-left: solid 1px #5fb611;
@@ -1598,16 +1598,104 @@ span.badge-dark {
 .social_instagram {background: url(../img/icons/social/instagram.png) no-repeat;}
 
 /*Font Awesome Icon Styles*/
+
+.box-shadow::after, .box-shadow::before {
+    background: #999 none repeat scroll 0 0;
+    bottom: 15px;
+    content: "";
+    left: 5px;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    z-index: -1;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.box-shadow::after, .box-shadow::before {
+    background: #999 none repeat scroll 0 0;
+    bottom: 15px;
+    content: "";
+    left: 5px;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    z-index: -1;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.shadow-effect-1 {
+    box-shadow: 0 10px 6px -6px #bbb;
+}
+.box-shadow {
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+}
+.tag-box-v2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fafafa none repeat scroll 0 0;
+    border-color: #eee #eee #eee #72c02c;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 2px;
+}
+.tag-box {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+* {
+    border-radius: 0 !important;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #333;
+    font-size: 13px;
+    line-height: 1.6;
+}
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+}
+.fa-thumbs-up::before {
+    content: "";
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.checks-overview i {
+    margin-right: 15px;
+    vertical-align: middle;
+}
 i.icon-custom {
-  color: #555;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  line-height: 40px;
-  margin-bottom: 5px;
-  text-align: center;
-  display: inline-block;   
-  border: solid 1px #555;
+    border: 1px solid #555;
+    color: #555;
+    display: inline-block;
+    font-size: 17px;
+    height: 25px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 25px;
 }
 
 i.icon-sm {

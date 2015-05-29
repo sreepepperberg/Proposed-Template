@@ -57,10 +57,11 @@
     color:#666 !important;
 }
 .review_box li{
-    line-height: 35px;
+    line-height: 32px;
 }
 .review_box li i{
     font-size:20px;
+	vertical-align:middle;
 }
 .invoice-history dt{
     text-align: left;
@@ -128,4 +129,20 @@
      position: relative;
      vertical-align: initial;
      font:18px/1em "Glyphicons Regular";
+}
+.checks-overview{
+    font-size:18px;
+}
+.checks-overview li{
+    line-height:40px;
+}
+.checks-overview i{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.accredtions-tbl tr > td:first-child{
+    background-color: #f8f8f8;
+}
+.accredtions-tbl tr > td:last-child{
+    font-weight: bold;
 }
